@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const ViewQuotes = () => {
   return (
     <div>
+        <NavBar/>
         <h1><center>LIST OF QUOTES</center></h1>
         <br />
         <div className="container">

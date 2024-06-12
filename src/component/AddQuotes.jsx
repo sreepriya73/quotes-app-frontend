@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const AddQuotes = () => {
   return (
     <div>
+        <NavBar/>
         <h1><center>ADD QUOTES</center></h1>
         <div className="container">
             <div className="row g-3">
