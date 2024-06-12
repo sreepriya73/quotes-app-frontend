@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const DeleteQuotes = () => {
   return (
     <div>
+        <NavBar/>
          <h1><center>DELETE</center></h1>
         <br />
         <div className="container">

@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const SearchQuotes = () => {
   return (
     <div>
+        <NavBar/>
         <h1><center>SEARCH</center></h1>
         <div className="container">
             <div className="row g-3">
