@@ -3,6 +3,7 @@ import './App.css';
 import AddQuotes from './component/AddQuotes';
 import DeleteQuotes from './component/DeleteQuotes';
 import SearchQuotes from './component/SearchQuotes';
+import ViewQuotes from './component/ViewQuotes';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      <AddQuotes/>
      <DeleteQuotes/>
      <SearchQuotes/>
+     <ViewQuotes/>
     </div>
   );
 }
